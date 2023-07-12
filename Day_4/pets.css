@@ -1,0 +1,74 @@
+h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+}
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Featured pets section */
+.featured-pets {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .pet-card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(204, 230, 233);
+    /* background-color: white; */
+  }
+  
+  .pet-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .pet-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .pet-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  .com{
+    background-image: url(bg2.jpg);
+    background-size: contain;
+    /* background-color: rgb(228, 240, 243); */
+    /* background-color: rgb(222, 241, 243); */
+  }
+  
+  /* View All Pets button */
+  button {
+    padding: 10px 20px;
+    background-color: #003c95;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #0e3c9f;
+  }
