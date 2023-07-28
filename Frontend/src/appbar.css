@@ -1,0 +1,24 @@
+/* navbar.css */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .nb:hover{
+    background-color: red;
+  }
